@@ -1,7 +1,7 @@
 from engines.engine import Engine
 
 
-class sternmanEngine(Car, ABC):
+class sternmanEngine(Engine):
     def __init__(self, warning_light_is_on):
         self.warning_light_is_on = warning_light_is_on
 
