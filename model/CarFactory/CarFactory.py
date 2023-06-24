@@ -1,4 +1,4 @@
-from car import car 
+from car import Car 
 
 from batteries.nubbin_battery import NubbinBattery
 from batteries.spindler_battery import SpindlerBattery
