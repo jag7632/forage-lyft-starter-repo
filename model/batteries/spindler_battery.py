@@ -6,7 +6,7 @@ class SpindlerBattery(Battery):
         self.current_date = current_date
     
     def needs_service(self):
-        if self.last_service_date.replace(year=self.last_service_date.year + 4) < self.current_date:
+        if self.last_service_date.replace(year=self.last_service_date.year + 3) < self.current_date:
             return True
         else: 
             return False
